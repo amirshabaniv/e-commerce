@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'javayez',
         'USER': 'postgres',
-        'PASSWORD': 'amir4014',
+        'PASSWORD': 'pass',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -170,8 +170,8 @@ CACHES = {
 
 # ARVAN CLOUD STORAGE
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_ACCESS_KEY_ID = '2df34402-0eec-428f-9a05-5989a5babfba'
-AWS_SECRET_ACCESS_KEY = 'a9b6351ed108d79d92cabb1ebf37011d74defe9effddc24968550e4179a75309'
+AWS_ACCESS_KEY_ID = 'key'
+AWS_SECRET_ACCESS_KEY = 'key'
 AWS_S3_ENDPOINT_URL = 'https://s3.ir-thr-at1.arvanstorage.ir'
 AWS_STORAGE_BUCKET_NAME = 'drf-javayez'
 AWS_SERVICE_NAME = 's3'
