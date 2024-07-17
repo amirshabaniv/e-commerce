@@ -178,7 +178,7 @@ AWS_SERVICE_NAME = 's3'
 AWS_S3_FILE_OVERWRITE = False
 
 #Celery config
-CELERY_BROKER_URL = 'redis://localhost:6379/'
+CELERY_BROKER_URL = 'redis://localhost:6379'
 CELERY_RESULT_BACKEND = CELERY_BROKER_URL
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
