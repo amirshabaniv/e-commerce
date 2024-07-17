@@ -10,6 +10,11 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+#### Run following command in terminal:
+```redis
+redis-cli
+```
+
 #### Run project:
 ```python
 python manage.py runserver
